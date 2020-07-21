@@ -1,0 +1,287 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+
+
+/* .navbar-brand {
+    border: 2px solid #E66C28;
+    padding: 5px;
+}
+
+.navbar .active {
+    color: #E66C28 !important;
+}
+
+.navbar li {
+    font-size: 18px;
+    padding: 10px;  
+} */
+
+.nav {
+    background-color: black !important;
+}
+
+  
+#home {
+	background: url(images/photo-1529847556963-9653a9366021\ 1.png) no-repeat center fixed;
+	display: table;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	background-size: cover;
+}
+
+.landing-text {
+	display: table-cell;
+	text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+
+.landing-text h2 span {
+	font-size: 300%;
+    font-weight: bolder !important;
+    color: #E66C28;
+}
+
+.landing-text h2, h4 {
+    font-family: 'Raleway';
+    color : #FFFFFF;
+    font-weight: bolder !important;
+    font-size: 200%;
+}
+
+.landing-text a {
+    color: #E66C28; 
+    border: 2px solid #E66C28;
+   
+    background-color: black;
+}
+
+.vertical { 
+    border-left: 3px solid white;
+    height: 200px;
+    left: 10%;    
+}
+
+.logo  {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 2%;
+    bottom: 30%;
+}
+
+.fab {
+    color: white;
+    padding: 15px 0px;
+    font-size: 25px;
+}
+
+.fa {
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+}
+
+.about {
+    position: relative;
+    background: url(images/photo-1547357812-4a336d835928-01\ 1.png)
+}
+
+
+.vector img {
+    position: absolute;
+    width: 55% !important;
+    top: -5%;
+    left: 0% !important;
+    opacity: 0.5;
+   
+}
+
+
+.about-img {
+    width: 90%;
+    opacity: 20;
+   
+}
+
+.about {
+margin: 80 0px !important;
+}
+
+.about h1{
+    color: #FFFFFF;
+}
+
+.about h1 span{
+    color: #E66C28
+}
+
+.about h5 {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+}
+
+.bio {
+    margin-top: 20px;
+}
+
+.bio span {
+    margin-left: 120px;
+}
+
+.bio a{
+    margin-top: 30px;
+    color: #E66C28; 
+    border: 2px solid #E66C28;
+    background-color: black;
+   
+}
+
+.bio-item {
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.achievements {
+    background: url(images/photo-1547357812-4a336d835928-01\ 1.png);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.achievements h5, h6 {
+    color: #FFFFFF
+}
+
+.achievements span {
+    color: #E66C28;
+}
+.achievements h1 {
+    color: #FFFFFF
+}
+
+.award {
+    border: 2px solid #E66C28;
+    border-radius: 50%;
+    padding: 20px;
+    
+}
+
+
+
+.songs {
+    background: url(images/photo-1547357812-4a336d835928-01\ 1.png);
+
+
+}
+
+.songs h1{
+    color: #E66C28;
+}
+.padding {
+    padding: 150px 0;
+}
+.songs img {
+    width: 100%
+}
+.song-item {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;  
+
+}
+
+.song-item h5 {
+    padding:20px;
+}
+
+.all {
+    background-color: #E66C28;
+    padding: 0 28px;
+}
+
+.load a{
+    color: #E66C28; 
+    border: 2px solid #E66C28;
+    background-color: black;
+
+}
+
+.tracks {
+    background: url(images/photo-1547357812-4a336d835928-01\ 1.png);
+    
+    padding: 100px 0;
+
+}
+.tracks h1 {
+    color: #FFFFFF;
+}
+.tracks span {
+    color: #E66C28
+}
+.contact {
+    background: url(images/photo-1547357812-4a336d835928-01\ 1.png);
+    padding: 150px 0;
+
+}
+.contact h1 {
+    color: #FFFFFF;
+}
+.contact span {
+    color: #E66C28
+}
+
+.songs, .tracks, .contact {
+    position: relative;
+}
+
+@media (max-width: 576px){
+    .achievements img {
+        width: 20%;
+        height: 52%
+    }
+    
+
+}
+@media (min-width: 577px){
+    .achievements img {
+        width: 37%;
+        height: 49%;
+        
+    }
+    
+
+}
+@media (max-width: 767px){
+    .achievements img {
+        width: 37%;
+        height: 52%
+    }
+    .bio-item {
+        font-size: 18px;
+        margin-top: 50px;
+    }
+
+   
+     .songs img{
+        margin: 15px 0 !important;
+    }
+
+    .contact-details {
+        margin-top: 40px !important;
+    }
+
+}
+
+@media(min-width: 767px){
+
+}
