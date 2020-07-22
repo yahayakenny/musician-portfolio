@@ -4,21 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>musician</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
+
+    <!-- Bootstrap -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+
     <!-- Raleway font -->
     <link
       href="https://fonts.googleapis.com/css?family=Raleway"
       rel="stylesheet"
     />
-
-    <!-- Materialise css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
     <!-- Font awesome -->
     <link
@@ -28,21 +28,12 @@
       crossorigin="anonymous"
     />
 
-    <!-- scroll reveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-
-    <!-- animate css -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
-    />
-
     <!-- Animate on scroll -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
 
   <body>
-      <!-- Navigation -->
+   <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">JOHN-W</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,36 +42,35 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="nav navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Achievements</a>
+              <a class="nav-link" href="#about">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Me</a>
+              <a class="nav-link" href="#achievements">Achievements</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Songs</a>
+              <a class="nav-link" href="#songs">Songs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Latest Tracks</a>
+              <a class="nav-link" href="#latest">Latest Tracks</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
-  </nav>
+    </nav>
 
- 
   <div id="home">
-      <div class="landing-text container-fluid">
+      <div class="landing-text container-fluid " data-aos="fade-down"  data-aos-duration="3000">
         <h4>Hi there</h4>
         <h2>I'm <span>John Weller</span></h2>
         <h4>A rock star musician and guitarist</h4>
         <a href="#" class="btn btn-default btn-lg">Latest Tracks</a>
       </div>
 
-      <div class="logo">
+      <div class="logo" data-aos="fade-left" data-aos-duration="3000">
         <div class = "vertical"></div>
         <i class="fab fa-spotify"></i>
         <i class="fab fa-twitter"></i>
@@ -90,12 +80,12 @@
       <div>
         <i class="fa fa-angle-down"></i>
       </div>
-    </div>
+  </div>
 
 
-    <section class = "padding about">
+  <section class = "padding about" id = "about">
         <div class="container-fluid container"> <br>
-            <h1 class = "text-center">ABOUT <span>ME</span></h1><br><br>
+            <h1 class = "text-center me">ABOUT <span>ME</span></h1><br><br>
             <div class="logo">
                 <div class = "vertical"></div>
                 <i class="fab fa-spotify"></i>
@@ -105,17 +95,20 @@
             </div>
         
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <div class = "vector">
-                        <img src="images/Rectangle 8.png" alt="" class = "img-fluid">
-                    </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 img">
+                  <div class = "vector">
+                    <img src="images/Rectangle 8.png" alt="" class = "img-fluid">
+                  </div>
+
+                  <div class = "weller">
                     <img src="images/photo-1574921017333-fe929f9aa155 1.png" class = "about-img" alt="">
-                   
+                  </div>
+     
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 bio-item container-fluid">
-                    <h6>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 bio-item container-fluid" >
+                    <h5>
                         John Weller is an American rapper, singer, guitarist and a record producer. I was born and raised in Lake Grove, New York on Long Island. I am popularly known for my single “High on You” released in the year 2010. I have released 10 mixtapes and 5 studio albums of which “The Suitation” is my lastest release dropped on March 10, 2020. My first studio album release was Worst Things You, on Jan 06, 2002.
-                    </h6>
+                    </h5>
                     <div class = "bio">
                         <h6>Name <span>Jonathan Weller Smith</span></h6>
                         <h6>Born<span>April 25 1985</span ></h6>
@@ -130,7 +123,7 @@
     </section>
 
 
-    <section class = "achievements">
+    <section class = "achievements" id = "achievements">
         <div class="container fluid-container">
             <h1 class = "text-center">MY <span>ACHIEVEMENTS</span></h1><br><br>
             <div class="logo">
@@ -140,7 +133,7 @@
                 <i class="fab fa-facebook"></i>
                 <i class="fab fa-instagram"></i>
             </div>
-            <div class="row">
+            <div class="row awards">
                 <div class = "col-xs-6 col-sm-6 col-md-4 col-lg-4 text-center">
                        <img src="images/Group 10.png" alt="" class = "img-fluid">        
                 </div>
@@ -149,26 +142,27 @@
                   <img src="images/Group 11.png" alt="" class = "img-fluid">
                 </div> 
 
-                <div class = "col-xs-6 col-sm-6 col-md-4 col-lg-4 text-center">
-                  <img src="images/Group 12.png" alt="" class = "img-fluid">  
+                <div class = "col-xs-6 col-sm-6 col-md-4 col-lg-4 text-center ">
+                  <img src="images/Group 12.png" alt="" class = "img-fluid ">  
                 </div> 
 
                 <div class = "col-xs-6 col-sm-6 col-md-4 col-lg-4 text-center">
-                  <img src="images/Group 10.png" alt="" class = "img-fluid">                 
+                  <img src="images/Group 10 (1).png" alt="" class = "img-fluid">                 
                 </div> 
 
-                <div class = "col-xs-6 col-sm-6 col-md-4 col-lg-4 text-center">
+                <div class = "col-xs-6 col-sm-6 col-md-4 col-lg-4 text-center top">
                   <img src="images/Group 11 (1).png" alt="" class = "img-fluid">                
                 </div>  
 
-                <div class = "col-xs-6 col-sm-6 col-md-4 col-lg-4 text-center">
+                <div class = "col-xs-6 col-sm-6 col-md-4 col-lg-4 text-center top ">
                   <img src="images/Group 47.png" alt="" class = "img-fluid">                   
                 </div>  
             </div>
         </div>
     </section>
 
-    <section class = "songs padding">
+
+    <section class = "songs padding" id = "songs">
         <div class="container-fluid container">
             <h1 class = "text-center">SONGS</h1><br>
             <div class="logo">
@@ -185,13 +179,13 @@
                 <h5>Performances</h5>
             </div><br>
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 top">
                     <img src="images/Group 27.png" alt="">
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 top">
                     <img src="images/Group 26.png" alt="" >
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 top">
                     <img src="images/Group 28.png" alt="">
                 </div>
             </div><br><br>
@@ -210,7 +204,8 @@
         </div>   
     </section>
 
-    <section class = "tracks">
+
+    <section class = "tracks" id = "latest">
         <div class="fluid-container container">
             <h1 class = "text-center">LATEST <span>TRACKS</span></h1><br><br>
             <div class="logo">
@@ -233,9 +228,10 @@
         </div>
     </section>
 
-    <section class = "contact">
+
+    <section class = "contact" id = "contact">
         <div class="container-fluid container">
-            <h1 class = "text-center">GET IN <span>TOUCH</span></h1><br><br>
+            <h1 class = "text-center">GET IN <span>TOUCH</span></h1><br>
             <div class="logo">
                 <div class = "vertical"></div>
                 <i class="fab fa-spotify"></i>
@@ -246,41 +242,41 @@
 
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 contact-details">
-                    <form class="col s12">
-                        <div class="input-field col s12">
-                          <input id="name" type="text" class="validate">
-                          <label for="name">Name</label>
-                          
-                        </div>
-                        <div class="input-field col s12">
-                          <input id="email" type="email" class="validate">
-                          <label for="email">Email</label>
-                         
-                        </div>
-                        <div class="input-field col s12">
-                          <input id="message" type="text" class="validate">
-                          <label for="message">Message</label>              
-                        </div>
+                    <form class = "container">
+                      <div class="form-group row">                       
+                          <input type="text" class="form-control" id="name" placeholder="Name">
+                      </div>
+                    
+                      <div class="form-group row">                                             
+                          <input type="email" class="form-control" id="email" placeholder="Email">                        
+                      </div>
+                      <div class="form-group row">                                         
+                          <input type="text" class="form-control" id="text" placeholder="Message">                      
+                      </div>
+                      <div class = "send">
+                        <a href="#" class="btn btn-default btn-lg ">SEND <img src="images/send.png" alt=""></a>
+                      </div> 
                     </form>
 
-                </div><br>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 ">
-                    <div>
-                        <h6>
-                            <img src="images/1.png" alt=""> Phone: +108942343468
-                        </h6><br><br>
-                        <h6>
-                            <img src="images/Group (1).png" alt=""> Email: Johnweller@gmail.com
-                        </h6><br><br>
-                       <h6>
-                        <img src="images/3.png" alt=""> Location: 29th John District New York.
-                       </h6>
+                </div><br><br>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 contact-info">
+                    <div>                     
+                          <img src="images/1.png" alt=""><h6>Phone: <span>+108942343468</span></h6>  <br>                  
+                  
+                          <img src="images/Group (1).png" alt=""><h6>Email: <span>Johnweller@gmail.com</span></h6>  <br>               
+                    
+                        <img src="images/3.png" alt=""><h6>Location: <span>29th John District New York.</span></h6>                  
                     </div>  
                 </div>
             </div>
-        </div>
+        </div><br><br><br><br>
+      
+        <div class="container container-fluid text-center">
+          <h6>Copyright 2020 All rights reserved</h6>
         </div>
     </section>
+
+   
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -298,72 +294,13 @@
       crossorigin="anonymous"
     ></script>
 
-    <!-- <script>
-      window.sr = ScrollReveal();
-
-      sr.reveal('.landing-text', {
-        duration: 2000,
-        origin: 'left',
-        distance: '350px',
-        viewFactor: 0.3,
-      });
-      sr.reveal('.mission-text', {
-        duration: 2000,
-        origin: 'right',
-        distance: '350px',
-        viewFactor: 0.3,
-        delay: 700,
-      });
-      sr.reveal('.mission-img', {
-        duration: 2000,
-        origin: 'left',
-        distance: '350px',
-        viewFactor: 0.3,
-      });
-      sr.reveal('.card-one', {
-        duration: 2000,
-        origin: 'top',
-        distance: '350px',
-        viewFactor: 0.3,
-      });
-      sr.reveal('.card-two', {
-        duration: 2000,
-        origin: 'top',
-        distance: '350px',
-        viewFactor: 0.3,
-        delay: 1000,
-      });
-      sr.reveal('.card-three', {
-        duration: 2000,
-        origin: 'top',
-        distance: '350px',
-        viewFactor: 0.3,
-        delay: 1350,
-      });
-    </script> -->
     <!-- animate on scroll js -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
 
     <!-- Animate on scroll init -->
-    <script>
-      AOS.init();
-    </script>
-
-  <!-- Materialise css -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var elems = document.querySelectorAll('.sidenav');
-            var instances = M.Sidenav.init(elems, options);
-          });
-        
-          // Or with jQuery
-        
-          $(document).ready(function(){
-            $('.sidenav').sidenav();
-          });
-
-    </script> -->        
+     <script>
+      AOS.init(); 
+    </script> 
+       
   </body>
 </html>
