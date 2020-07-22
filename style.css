@@ -6,26 +6,11 @@ body {
   overflow-x: hidden;
 }
 
-
-/* .navbar-brand {
-    border: 2px solid #E66C28;
-    padding: 5px;
-}
-
-.navbar .active {
-    color: #E66C28 !important;
-}
-
 .navbar li {
     font-size: 18px;
     padding: 10px;  
-} */
-
-.nav {
-    background-color: black !important;
-}
-
-  
+} 
+ 
 #home {
 	background: url(images/photo-1529847556963-9653a9366021\ 1.png) no-repeat center fixed;
 	display: table;
@@ -34,6 +19,8 @@ body {
 	position: relative;
 	background-size: cover;
 }
+
+
 
 .landing-text {
 	display: table-cell;
@@ -44,7 +31,7 @@ body {
 
 
 .landing-text h2 span {
-	font-size: 300%;
+	font-size: 250%;
     font-weight: bolder !important;
     color: #E66C28;
 }
@@ -53,15 +40,22 @@ body {
     font-family: 'Raleway';
     color : #FFFFFF;
     font-weight: bolder !important;
-    font-size: 200%;
+    font-size: 180%;
 }
 
 .landing-text a {
     color: #E66C28; 
     border: 2px solid #E66C28;
-   
     background-color: black;
 }
+
+.landing-text a:hover {
+    color: #E66C28; 
+    border: 2px solid #E66C28;
+    background-color: black;
+}
+
+
 
 .vertical { 
     border-left: 3px solid white;
@@ -108,14 +102,12 @@ body {
 
 
 .about-img {
-    width: 90%;
+    width: 100%;
     opacity: 20;
    
 }
 
-.about {
-margin: 80 0px !important;
-}
+
 
 .about h1{
     color: #FFFFFF;
@@ -135,10 +127,18 @@ margin: 80 0px !important;
 }
 
 .bio span {
-    margin-left: 120px;
+    margin-left: 80px;
 }
 
 .bio a{
+    margin-top: 30px;
+    color: #E66C28; 
+    border: 2px solid #E66C28;
+    background-color: black;  
+}
+
+
+.bio a:hover{
     margin-top: 30px;
     color: #E66C28; 
     border: 2px solid #E66C28;
@@ -165,6 +165,7 @@ margin: 80 0px !important;
 .achievements span {
     color: #E66C28;
 }
+
 .achievements h1 {
     color: #FFFFFF
 }
@@ -177,22 +178,22 @@ margin: 80 0px !important;
 }
 
 
-
 .songs {
     background: url(images/photo-1547357812-4a336d835928-01\ 1.png);
-
-
 }
 
 .songs h1{
     color: #E66C28;
 }
+
 .padding {
     padding: 150px 0;
 }
+
 .songs img {
     width: 100%
 }
+
 .song-item {
     color: #FFFFFF;
     display: flex;
@@ -201,7 +202,7 @@ margin: 80 0px !important;
 }
 
 .song-item h5 {
-    padding:20px;
+    padding:10px;
 }
 
 .all {
@@ -218,8 +219,7 @@ margin: 80 0px !important;
 
 .tracks {
     background: url(images/photo-1547357812-4a336d835928-01\ 1.png);
-    
-    padding: 100px 0;
+    padding: 70px 0;
 
 }
 .tracks h1 {
@@ -244,28 +244,9 @@ margin: 80 0px !important;
     position: relative;
 }
 
-@media (max-width: 576px){
-    .achievements img {
-        width: 20%;
-        height: 52%
-    }
-    
 
-}
-@media (min-width: 577px){
-    .achievements img {
-        width: 37%;
-        height: 49%;
-        
-    }
-    
-
-}
 @media (max-width: 767px){
-    .achievements img {
-        width: 37%;
-        height: 52%
-    }
+  
     .bio-item {
         font-size: 18px;
         margin-top: 50px;
