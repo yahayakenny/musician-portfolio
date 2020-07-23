@@ -38,7 +38,7 @@ body {
     color: white !important;
     font-family: 'Raleway';
     border: 2px solid #E66C28;
-    padding: 12px;
+    padding: 10px;
     
 }
 
@@ -275,8 +275,13 @@ body {
 .contact h1 span {
     color: #E66C28;
 }
+
 .contact span {
     color: white;
+}
+
+.contact .bottom h6{
+   color: rgba(255, 255, 255, 0.5);
 }
 
 .songs, .tracks, .contact {
