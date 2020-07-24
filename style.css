@@ -392,12 +392,6 @@ input {
 
 
 
-
-
-
-
-
-
 @media (max-width: 767px){
   
     .bio-item h6{
@@ -410,7 +404,9 @@ input {
         font-size: 25px;
 
     }
-   
+   .may {
+       display: none;
+   }
      .songs img{
         margin: 0 auto !important;
         width: 82%;
