@@ -318,6 +318,13 @@ html, body {
     padding: 10px 40px;
     margin-left: -14px;
 }
+.send a:hover{
+    color: #E66C28; 
+    border: 2px solid #E66C28;
+    background-color: black;
+    padding: 10px 40px;
+    margin-left: -14px;
+}
 
    
 
@@ -368,8 +375,10 @@ html, body {
 
 .track h2, p {
     color: #FFFFFF;
+    font-family: 'Raleway';
   
 }
+
 .track-icons {
     display: flex;
 
@@ -387,7 +396,7 @@ html, body {
 }
 
 input {
-    width: 75% !important;
+    width: 80% !important;
 }
 
 
@@ -404,6 +413,7 @@ input {
         font-size: 25px;
 
     }
+
    .may {
        display: none;
    }
