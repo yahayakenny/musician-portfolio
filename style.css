@@ -7,6 +7,8 @@ html, body {
     overflow-x: hidden;   
 }
 
+
+
 .navbar li {
     font-size: 18px;
     padding: 10px;  
@@ -20,19 +22,25 @@ html, body {
 .navbar {
     background-color: black !important;
     color: white;
+    
 }
 
 .navbar .active {
     color: #E66C28 !important;
 }
+
+.navbar .navbar-collapse {
+    text-align: center;
+  }
  
 #home {
 	background: url(images/photo-1529847556963-9653a9366021\ 1.png) no-repeat center fixed;
 	display: table;
 	height: 100%;
-	width: 100% !important;
+	width: 100%;
 	position: relative;
-	background-size: cover;
+    background-size: cover;
+    overflow-x: hidden ;
 }
 
 .navbar-brand {
@@ -89,6 +97,7 @@ html, body {
     position: absolute;
     left: 2%;
     bottom: 30%;
+    
 }
 
 .fab {
@@ -97,12 +106,12 @@ html, body {
     font-size: 25px;
 }
 
-.fa {
+.arrow {
     color: white;
     font-size: 60px;
     position: absolute;
-    bottom: 5%;
-    left: 50%;
+    bottom: 10%;
+    left: 48%;
 }
 
 .about {
@@ -203,12 +212,7 @@ html, body {
 
 .achievements h1 {
     color: #FFFFFF
-}
-
-.awards img {
-    margin-bottom: 40px;
-   
-}
+} 
 
 .songs {
     background: url(images/photo-1547357812-4a336d835928-01\ 1.png);
@@ -249,6 +253,24 @@ html, body {
     padding: 10px 40px;
 
 }
+.load a:hover {
+    color: #E66C28; 
+    border: 2px solid #E66C28;
+    background-color: black;
+    padding: 10px 40px;
+
+}
+
+.load a{
+    color: #E66C28; 
+    border: 3px solid #E66C28;
+    background-color: black;
+    padding: 10px 40px;
+    font-weight: bold;
+
+}
+
+
 
 .tracks {
     background: url(images/photo-1547357812-4a336d835928-01\ 1.png);
@@ -294,24 +316,87 @@ html, body {
     border: 2px solid #E66C28;
     background-color: black;
     padding: 10px 40px;
+    margin-left: -14px;
 }
 
-.carousel {
-    height:960px;
-    padding-top: 50px;
-    padding-bottom: 50px; 
-    background: url(images/photo-1547357812-4a336d835928-01\ 1.png);
+   
+
+
+.play {
+    display: flex;
+    width: 20%;
 }
 
-.carousel h1 {
-    color: #FFFFFF
-}
+.awards .one {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    border: 4px solid #E66C28;
+    padding: 20px;
     
-.carousel-inner img {
-    height:600px;
-    width: 800px;
-    object-fit: contain;   
 }
+
+.awards p {
+    font-family: 'Raleway';
+    color: white;
+    font-size: 15px;
+
+}
+
+.award {
+    padding-bottom: 50px;
+}
+
+.awards h2 {
+    font-family: 'Raleway';
+    color: white;
+    font-size: 50px ;
+    font-weight: bolder; 
+
+}
+.track img {
+    width: 100% !important;
+}
+
+
+
+.track {
+    display: flex;
+    background-color: #0D0C0C;;
+    padding: 40px;
+}
+
+.track h2, p {
+    color: #FFFFFF;
+  
+}
+.track-icons {
+    display: flex;
+
+}
+.track-album h2 {
+    font-size: 30px !important;
+}
+.track-btn {
+    color: #E66C28; 
+    border: 2px solid #E66C28;
+    background-color: black;
+    padding: 5px 15px !important;
+    font-weight: bolder;
+    font-size: 18px !important;
+}
+
+input {
+    width: 75% !important;
+}
+
+
+
+
+
+
+
+
 
 @media (max-width: 767px){
   
@@ -436,3 +521,4 @@ html, body {
     
 
 }
+
